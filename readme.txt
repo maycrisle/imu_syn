@@ -1,0 +1,8 @@
+imu_syn是一个类似于openvins一样的一个源文件，放在catkin工作目录的src下进行编译。
+
+
+实现的功能是将发布的话题中加速度计和陀螺仪的数据进行融合为imu的一个整体话题。
+对应的话题名称从主函数imu_syn中对应。
+
+
+运行命令:rosrun imu_syn imu_syn
